@@ -1,0 +1,347 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "sourcecode/ui/libUiLib.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"sourcecode/ui/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"compileDependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "Qt6::Core::@beb02e1c1e7afd634206"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Qt6::Gui::@beb02e1c1e7afd634206"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Qt6::Widgets::@beb02e1c1e7afd634206"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "ControllerLib::@17f903d6bd9742c3ad43"
+		}
+	],
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_WIDGETS_LIB"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/build/sourcecode/ui/UiLib_autogen/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/ui/../controller"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/ui/../engine"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/ui"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/controller"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/controller/../engine"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/engine"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/usr/include/qt6/QtCore"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/usr/include/qt6"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/usr/lib64/qt6/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/usr/include/qt6/QtGui"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/usr/include/qt6/QtWidgets"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2,
+					2
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				4
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "TMLib::@8013fb0f9a102ad31ceb"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "ControllerLib::@17f903d6bd9742c3ad43"
+		},
+		{
+			"id" : "UiLib_autogen_timestamp_deps::@beb02e1c1e7afd634206"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "UiLib_autogen::@beb02e1c1e7afd634206"
+		}
+	],
+	"id" : "UiLib::@beb02e1c1e7afd634206",
+	"interfaceCompileDependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "Qt6::Core::@beb02e1c1e7afd634206"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Qt6::Gui::@beb02e1c1e7afd634206"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Qt6::Widgets::@beb02e1c1e7afd634206"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "ControllerLib::@17f903d6bd9742c3ad43"
+		}
+	],
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "Qt6::Core::@beb02e1c1e7afd634206"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Qt6::Gui::@beb02e1c1e7afd634206"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Qt6::Widgets::@beb02e1c1e7afd634206"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "ControllerLib::@17f903d6bd9742c3ad43"
+		}
+	],
+	"linkLibraries" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "Qt6::Core::@beb02e1c1e7afd634206"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Qt6::Gui::@beb02e1c1e7afd634206"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Qt6::Widgets::@beb02e1c1e7afd634206"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "ControllerLib::@17f903d6bd9742c3ad43"
+		}
+	],
+	"name" : "UiLib",
+	"nameOnDisk" : "libUiLib.a",
+	"orderDependencies" : 
+	[
+		{
+			"id" : "Qt6::moc::@17f903d6bd9742c3ad43"
+		},
+		{
+			"id" : "Qt6::uic::@17f903d6bd9742c3ad43"
+		},
+		{
+			"id" : "UiLib_autogen_timestamp_deps::@beb02e1c1e7afd634206"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "UiLib_autogen::@beb02e1c1e7afd634206"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "sourcecode/ui",
+		"source" : "sourcecode/ui"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				4
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				3
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				5
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				6
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/sourcecode/ui/UiLib_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "sourcecode/ui/MainWindow.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "sourcecode/ui/MainWindow.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "sourcecode/ui/TapeViewWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "sourcecode/ui/TapeViewWidget.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/sourcecode/ui/UiLib_autogen/timestamp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/sourcecode/ui/UiLib_autogen/timestamp.rule",
+			"sourceGroupIndex" : 3
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

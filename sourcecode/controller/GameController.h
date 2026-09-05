@@ -20,13 +20,14 @@ public:
     void step();
 
 
-    void writeSymbol( Symbol& symbol);
+    void writeSymbol(Bandsymbol& symbol);
     void moveLeft();
     void moveRight();
 
     
     bool isRunning() const;
     TuringMachine* machine();
+    Tape * m_tape();
 
     const TuringMachine& machine() const;
 

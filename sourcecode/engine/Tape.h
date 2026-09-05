@@ -17,6 +17,9 @@ public:
     void moveRight();
     
     int getPosition() const;
+    int mySize();
+
+    Bandsymbol operator[](int x);
     
 };
 #endif //TAPE_H

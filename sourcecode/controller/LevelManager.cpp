@@ -9,8 +9,9 @@ LevelManager::LevelManager(QObject* parent): QObject(parent){
     this->m_currentIndex = -1;
 }
 
+//TODO: add json usage and validation
 bool LevelManager::loadLevels(const QString& directoryPath){
-    QDir directory(directoryPath);
+    /*QDir directory(directoryPath);
 
     if (!directory.exists()) {
         emit loadingError(
@@ -78,7 +79,9 @@ bool LevelManager::loadLevels(const QString& directoryPath){
         return false;
     }
 
-    return loadLevel(0);
+    return loadLevel(0);*/
+    
+    return true;
 }
 
 bool LevelManager::loadLevel(int index){

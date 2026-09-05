@@ -10,12 +10,18 @@ add_library(ControllerLib
             GameController.h 
             GameController.cpp
             LevelManager.h
-            LevelManager.cpp)
+            LevelManager.cpp
+)
 
 find_package(Qt${QT_VERSION} COMPONENTS ${REQUIRED_LIBS} REQUIRED )
-target_include_directories(ControllerLib PUBLIC 
-                            ${CMAKE_CURRENT_SOURCE_DIR}
-                            ../engine/)
-target_link_libraries(ControllerLib PUBLIC 
-                        ${REQUIRED_LIBS_QUALIFIED}
-                        ../engine/TMLib)
+target_include_directories(ControllerLib 
+PUBLIC 
+    ${CMAKE_CURRENT_SOURCE_DIR}
+    ${CMAKE_CURRENT_SOURCE_DIR}/../engine/
+)
+
+target_link_libraries(ControllerLib 
+PUBLIC 
+    ${REQUIRED_LIBS_QUALIFIED}
+    TMLib
+)

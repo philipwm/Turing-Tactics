@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/build/sourcecode/app",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/app/../engine -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/app/../controller -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/app/../ui -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/app -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/ui/../controller -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/ui/../engine -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/ui -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/controller -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/controller/../engine -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/engine -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -g -std=gnu++17 -o CMakeFiles/tmgame.dir/main.cpp.o -c /home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/app/main.cpp",
+  "file": "/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/app/main.cpp",
+  "output": "sourcecode/app/CMakeFiles/tmgame.dir/main.cpp.o"
+},
+{
+  "directory": "/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/build/sourcecode/engine",
+  "command": "/usr/bin/g++  -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/engine -g -std=gnu++17 -o CMakeFiles/TMLib.dir/Tape.cpp.o -c /home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/engine/Tape.cpp",
+  "file": "/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/engine/Tape.cpp",
+  "output": "sourcecode/engine/CMakeFiles/TMLib.dir/Tape.cpp.o"
+},
+{
+  "directory": "/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/build/sourcecode/engine",
+  "command": "/usr/bin/g++  -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/engine -g -std=gnu++17 -o CMakeFiles/TMLib.dir/TuringMachine.cpp.o -c /home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/engine/TuringMachine.cpp",
+  "file": "/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/engine/TuringMachine.cpp",
+  "output": "sourcecode/engine/CMakeFiles/TMLib.dir/TuringMachine.cpp.o"
+},
+{
+  "directory": "/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/build/sourcecode/engine",
+  "command": "/usr/bin/g++  -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/engine -g -std=gnu++17 -o CMakeFiles/TMLib.dir/Puzzlelevel.cpp.o -c /home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/engine/Puzzlelevel.cpp",
+  "file": "/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/engine/Puzzlelevel.cpp",
+  "output": "sourcecode/engine/CMakeFiles/TMLib.dir/Puzzlelevel.cpp.o"
+},
+{
+  "directory": "/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/build/sourcecode/controller",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/build/sourcecode/controller/ControllerLib_autogen/include -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/controller -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/controller/../engine -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/engine -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -g -std=gnu++17 -o CMakeFiles/ControllerLib.dir/ControllerLib_autogen/mocs_compilation.cpp.o -c /home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/build/sourcecode/controller/ControllerLib_autogen/mocs_compilation.cpp",
+  "file": "/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/build/sourcecode/controller/ControllerLib_autogen/mocs_compilation.cpp",
+  "output": "sourcecode/controller/CMakeFiles/ControllerLib.dir/ControllerLib_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/build/sourcecode/controller",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/build/sourcecode/controller/ControllerLib_autogen/include -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/controller -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/controller/../engine -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/engine -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -g -std=gnu++17 -o CMakeFiles/ControllerLib.dir/GameController.cpp.o -c /home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/controller/GameController.cpp",
+  "file": "/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/controller/GameController.cpp",
+  "output": "sourcecode/controller/CMakeFiles/ControllerLib.dir/GameController.cpp.o"
+},
+{
+  "directory": "/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/build/sourcecode/controller",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/build/sourcecode/controller/ControllerLib_autogen/include -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/controller -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/controller/../engine -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/engine -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -g -std=gnu++17 -o CMakeFiles/ControllerLib.dir/LevelManager.cpp.o -c /home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/controller/LevelManager.cpp",
+  "file": "/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/controller/LevelManager.cpp",
+  "output": "sourcecode/controller/CMakeFiles/ControllerLib.dir/LevelManager.cpp.o"
+},
+{
+  "directory": "/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/build/sourcecode/ui",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/build/sourcecode/ui/UiLib_autogen/include -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/ui/../controller -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/ui/../engine -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/ui -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/controller -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/controller/../engine -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/engine -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -g -std=gnu++17 -o CMakeFiles/UiLib.dir/UiLib_autogen/mocs_compilation.cpp.o -c /home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/build/sourcecode/ui/UiLib_autogen/mocs_compilation.cpp",
+  "file": "/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/build/sourcecode/ui/UiLib_autogen/mocs_compilation.cpp",
+  "output": "sourcecode/ui/CMakeFiles/UiLib.dir/UiLib_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/build/sourcecode/ui",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/build/sourcecode/ui/UiLib_autogen/include -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/ui/../controller -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/ui/../engine -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/ui -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/controller -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/controller/../engine -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/engine -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -g -std=gnu++17 -o CMakeFiles/UiLib.dir/MainWindow.cpp.o -c /home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/ui/MainWindow.cpp",
+  "file": "/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/ui/MainWindow.cpp",
+  "output": "sourcecode/ui/CMakeFiles/UiLib.dir/MainWindow.cpp.o"
+},
+{
+  "directory": "/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/build/sourcecode/ui",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/build/sourcecode/ui/UiLib_autogen/include -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/ui/../controller -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/ui/../engine -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/ui -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/controller -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/controller/../engine -I/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/engine -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib64/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtWidgets -g -std=gnu++17 -o CMakeFiles/UiLib.dir/TapeViewWidget.cpp.o -c /home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/ui/TapeViewWidget.cpp",
+  "file": "/home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/sourcecode/ui/TapeViewWidget.cpp",
+  "output": "sourcecode/ui/CMakeFiles/UiLib.dir/TapeViewWidget.cpp.o"
+}
+]

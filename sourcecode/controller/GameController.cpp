@@ -1,9 +1,9 @@
 #include "GameController.h"
 
-GameController::GameController(QObject* parent=nullptr):
-QObject(parent), m_timer(new QTimer(this)), isRunning(false){
-    this->m_timer.Interval(200);
-
+GameController::GameController(QObject* parent):
+QObject(parent), m_timer(new QTimer(this)), m_isRunning(false){
+    
+    m_timer->setInterval(200);
     this->connect(m_timer, &QTimer::timeout, this, &GameController::onTimerTick);
 }
 
@@ -55,6 +55,12 @@ bool GameController::isRunning() const{ return this->m_isRunning; }
 
 TuringMachine* GameController::machine(){
     return &(this->m_tm);
+}
+
+Tape* GameController::m_tape(){
+    Tape currentTape = this->m_tm.getWorkTape();
+    
+    return &currentTape;
 }
 
 const TuringMachine & GameController::machine() const{

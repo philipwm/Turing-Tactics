@@ -18,3 +18,11 @@ Bandsymbol Tape::read() const {
     auto pos = this->getPosition();
     return this->cells[pos];    
 }
+
+int Tape::mySize(){
+    return this->cells.size();
+}
+
+Bandsymbol Tape::operator[](int x){
+    return this->cells[x];
+}

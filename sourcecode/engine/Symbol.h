@@ -9,4 +9,8 @@ enum class Bandsymbol{
     dollarsign
 };
 
+static const char* BandsymbolStrings[] = {"blank","zero","one","hashtag","dollarsign"};
+
+const char* getBandsymbolStringsValue(Bandsymbol symbol);
+
 #endif //SYMBOL_H

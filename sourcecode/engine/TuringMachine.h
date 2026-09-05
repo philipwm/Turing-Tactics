@@ -14,6 +14,7 @@ public:
     //TODO: add methods to getTape() and getcurrentstate() so the whole tape and currentstate are visible.
     void tmWrite(Bandsymbol newSymbol);
     int tmGetPosition() const;
+    Tape getWorkTape();
     void tmMoveRight();
     void tmMoveLeft();
     Bandsymbol tmRead() const;

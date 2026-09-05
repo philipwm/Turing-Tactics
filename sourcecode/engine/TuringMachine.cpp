@@ -4,6 +4,10 @@ int TuringMachine::tmGetPosition() const{
     return this->workTape.getPosition();
 }
 
+Tape TuringMachine::getWorkTape(){
+    return this->workTape;
+}
+
 void TuringMachine::tmMoveLeft(){
     this->workTape.moveLeft();
 }
