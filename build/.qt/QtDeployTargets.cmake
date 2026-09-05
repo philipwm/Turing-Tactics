@@ -1,8 +1,0 @@
-set(__QT_DEPLOY_TARGET_tmgame_FILE /home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/build/sourcecode/app/tmgame)
-set(__QT_DEPLOY_TARGET_tmgame_TYPE EXECUTABLE)
-set(__QT_DEPLOY_TARGET_TMLib_FILE /home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/build/sourcecode/engine/libTMLib.a)
-set(__QT_DEPLOY_TARGET_TMLib_TYPE STATIC_LIBRARY)
-set(__QT_DEPLOY_TARGET_ControllerLib_FILE /home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/build/sourcecode/controller/libControllerLib.a)
-set(__QT_DEPLOY_TARGET_ControllerLib_TYPE STATIC_LIBRARY)
-set(__QT_DEPLOY_TARGET_UiLib_FILE /home/pushing-p/Documents/Myfiles/Cprojects/codeforces/Turing-tactics/build/sourcecode/ui/libUiLib.a)
-set(__QT_DEPLOY_TARGET_UiLib_TYPE STATIC_LIBRARY)

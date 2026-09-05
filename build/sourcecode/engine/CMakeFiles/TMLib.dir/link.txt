@@ -1,2 +1,0 @@
-/usr/bin/ar qc libTMLib.a CMakeFiles/TMLib.dir/Tape.cpp.o CMakeFiles/TMLib.dir/TuringMachine.cpp.o CMakeFiles/TMLib.dir/Puzzlelevel.cpp.o
-/usr/bin/ranlib libTMLib.a
